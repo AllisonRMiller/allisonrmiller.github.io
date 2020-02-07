@@ -1,0 +1,66 @@
+
+html {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url("Summer Trip 2016 pt 1 209.JPG");
+    background-color: black;
+  }
+
+
+/*---Page Structure---*/
+
+header {
+    position:sticky;
+    top: 20;
+    width: 80%;
+    display: block;
+    margin: 50 auto;
+    padding: 16px 50px;
+    background-color: rgba(77, 77, 77,.75);
+}
+main {
+    padding: 50px;
+    display: block;
+    position: relative;
+    width: 80%;
+    margin: 100 auto;
+    background-color: rgba(77, 77, 77,.75);
+}
+/*---text formatting---*/
+
+p {
+    color: #e6e6e6;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+h1 {
+    font-family: 'Amita', cursive;
+    color: #e6e6e6;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    color: #e6e6e6;
+ }
+      
+li {
+    float: left;
+}
+    
+li a {
+    display: block;
+    color: #e6e6e6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+      }
