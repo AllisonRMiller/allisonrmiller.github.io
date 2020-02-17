@@ -66,6 +66,72 @@ main {
     background-color: rgba(16, 32, 41,.75);
     
 }
+
+.nav2 {
+    margin: 50 auto;
+    padding: 30px;
+    display: flex;
+    position: relative;
+    width: 80%;
+    background-color: rgba(16, 32, 41,.75);
+    justify-content: center;
+    
+}
+.nav2 a {
+    text-transform: uppercase;
+    font-family: 'EB Garamond', serif;
+    text-decoration:none;
+    line-height: 16px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 20px 16px 20px 16px;
+    text-align: center;
+    color: #bad8eb;
+}
+/*  Working on a modal thingy!
+.nav2 button {
+    text-transform: uppercase;
+    font-family: 'EB Garamond', serif;
+    text-decoration:none;
+    border: none;
+    line-height: 16px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 20px 16px 20px 16px;
+    background-color: rgba(16, 32, 41,.75);
+    color: #bad8eb;
+}
+
+.modal {
+    padding: 50px;
+    display: none; 
+    position: relative; 
+    margin: 100 auto;
+    z-index: 1; 
+    width: 80%; 
+    overflow: auto; 
+    background-color: rgba(16, 32, 41,.75);
+  }
+  
+.modal-content {
+    border: 1px solid #bad8eb;
+  }
+  
+.close {
+    color: #bad8eb;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+.close:focus {
+    text-decoration: none;
+    cursor: pointer;
+  } 
+
+*/
 /*---text formatting---*/
 
 p {
