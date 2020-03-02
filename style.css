@@ -1,16 +1,15 @@
 
-html {
+html,body {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
     background-image: url("Summer_Trip_2016_pt_1_209.JPG");
     background-color: black;
-  }
-
+}
 
 /*---nav bar---*/
 
-.topbar {
+/* .topbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -44,9 +43,9 @@ html {
     text-align: center;
     padding: 19px 16px 20px 16px;
     border-bottom: 1.5px solid #dcecf5;
-}
+} */
 /*---Header bar---*/
-.titlebar {
+/* .titlebar {
     position:sticky;
     top: 55;
     width: 80%;
@@ -54,10 +53,10 @@ html {
     margin: 50 auto;
     padding: 16px 50px;
     background-color: rgba(16, 32, 41,.75);
-}
+} */
 
 /*---Once and Future main content formatting---*/
-main {
+/* main {
     padding: 50px;
     display: block;
     position: relative;
@@ -87,7 +86,7 @@ main {
     padding: 20px 16px 20px 16px;
     text-align: center;
     color: #bad8eb;
-}
+} */
 /*  Working on a modal thingy!
 .nav2 button {
     text-transform: uppercase;
@@ -134,7 +133,7 @@ main {
 */
 /*---text formatting---*/
 
-p {
+/* p {
     color: #bad8eb;
     font-family: 'EB Garamond', serif;
     font-size: 20px;
@@ -164,4 +163,4 @@ li a {
     text-decoration: none;
     font-size: 20px;
     font-family: 'EB Garamond', serif;
-      }
+      } */
