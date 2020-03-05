@@ -4,6 +4,7 @@ html,body {
     background-position: center top;
     background-repeat: no-repeat;
     background-image: url("Summer_Trip_2016_pt_1_209.JPG");
+    font-family: 'EB Garamond', serif;
     background-color: black;
 }
 
@@ -55,17 +56,37 @@ html,body {
     background-color: rgba(16, 32, 41,.75);
 } */
 
+.list-group-item {
+    text-decoration:none;
+    color: #bad8eb;
+    font-family: 'EB Garamond', serif;
+    background-color: rgba(16, 32, 41,.75);
+}
+
+.card{
+    color: #bad8eb;
+    font-family: 'EB Garamond', serif;
+    background-color: rgba(16, 32, 41,.75);
+}
+.navbar {
+    color: #bad8eb;
+    text-transform:uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgba(16, 32, 41);
+}
+
 /*---Once and Future main content formatting---*/
 /* main {
-    padding: 50px;
+    margin: 10vh;
+    padding: 10vh;
     display: block;
     position: relative;
     width: 80%;
     margin: 100 auto;
     background-color: rgba(16, 32, 41,.75);
     
-}
-
+} */
+/* 
 .nav2 {
     margin: 50 auto;
     padding: 30px;
@@ -86,7 +107,7 @@ html,body {
     padding: 20px 16px 20px 16px;
     text-align: center;
     color: #bad8eb;
-} */
+} */ 
 /*  Working on a modal thingy!
 .nav2 button {
     text-transform: uppercase;
