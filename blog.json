@@ -1,19 +1,21 @@
 {
-    "week1": "In week one we covered the basics of github, which I had not handled from the back end previously.  I find that I am struggling a little bit with interfacing with it from the command line even though I can stumble through, but I think that will come with practice and the handy reference sheet we've been linked to. Otherwise my greatest struggles have been adjusting to using a mac, and time management since I've been in overtime at work while beginning this course.  I already have a basic familiarity with HTML and some experience altering CSS and am very much looking forward to learning more about them.",
-    "week2": [
+    "week1": ["Week 1",
+        "In week one we covered the basics of github, which I had not handled from the back end previously.  I find that I am struggling a little bit with interfacing with it from the command line even though I can stumble through, but I think that will come with practice and the handy reference sheet we've been linked to. Otherwise my greatest struggles have been adjusting to using a mac, and time management since I've been in overtime at work while beginning this course.  I already have a basic familiarity with HTML and some experience altering CSS and am very much looking forward to learning more about them."
+    ],
+        "week2": ["Week 2",
         "Once more my greatest enemy this week was time and time management, trying to find room to fit in all the reading and practice exercises we were given.  I had some issues comprehending some of the CSS documentation, and eventually realized the best thing to do was to go for my old tried and true method, winging it.  I tend to learn better in a mix of demonstration and guided hands on activities anyway, so swapping to this process helped me feel a little more confident.  By doing first I was able to go back and better understand what I was reading since I had handled some code.",
         "Pseudocoding is something that I think I am going to struggle with from an implementation standpoint.  Conceptually I get it, but I’m more mentally geared towards narrative writing than technical writing so I’m going to struggle a little with writing it in terms of functions as objects vs. just saying what it does.",
         "I’m starting to think the layout I was looking at for my blog may require javascript, so I’m looking forward to seeing what’s possible with it as we get into it. My experience with it is much, much older than my prior experience with HTML and CSS so it’s going to be much closer to new territory for me."
     ],
-    "week3" : [
+    "week3" : ["Week 3",
         "Week 3 of our prework is the last week during which I was responsible for overtime at work, and hopefully the end of lagging slightly behind because of it. We dove into javascript this week, which I confess to struggling slightly with. While the syntax is incredibly important, I almost get the feeling that so long as you're typing words and those words are defined something will happen. It might not be what was intended, but it's something alright! I'm doing much better with guided javascript exercises than more freeform ones, which I think is just a matter of really internalizing the logic of the language.",
         "I wasted quite a bit of time on attempting to create a modal element to contain these blog posts in such that they'll all appear on the same page. While the modal element itself works perfectly, I somehow managed to break closing it, and much of the documentation I'm able to find referring to modals discusses them specifically in the context of bootstrap. As such I've temporarily abandoned that and will continue looking for an elegant solution to my problem."
     ],
-    "week4" : [
-
+    "week4" : ["Week 4",
+        ""
     ],
-    "week5" : [
-
-    ],
+    "week5" : ["Week 5",
+        ""
+    ]
 
 }   
