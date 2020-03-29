@@ -1,81 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <title>A. R. Miller</title>
-  
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|EB+Garamond|Josefin+Sans&display=swap"
-    rel="stylesheet">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <!-- Codewars icon -->
-  <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
-
-  <!-- FontAwesome -->
-  <script src="https://kit.fontawesome.com/72498f28e9.js" crossorigin="anonymous"></script>
-
-  <!-- Cover template -->
-  <link href="cover.css" rel="stylesheet">
-
-  <!-- My CSS -->
-  <link href="style.css" rel="stylesheet">
-</head>
-
-<body>
-  <div class="row">
-    <div class="col-12">
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">A. R. Miller</i></a>
-        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-          aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="blog.html">Blog</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="links.html">Resources</a>
-            </li>
-          </ul>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Amita|EB+Garamond&display=swap" rel="stylesheet"> 
+        <title>An (almost) Awesome Blog</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="topbarborder"></div>
+            <div class="topbar">
+                <a href="index.html" class="active">Blog</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="links.html">Links</a>
+                <a href="social.html">Contact</a>
+            </div>
+            <div class="titlebar"><h1>An (almost) Awesome Blog</h1></div>
+        </header>
+         <!-- Trigger/Open The Modal -->
+        <div class= "nav2"><button id="wk1">Week 1</button><button id="wk2">Week 2</button><button id="wk3">Week 3</button>
         </div>
-      </nav>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <div class="cover-container d-flex mt-5 h-90 p-3 mx-auto flex-column">
-        <main role="main" class="inner cover mt-5">
-          <h1 class="cover-heading mt-5">Overlay text</h1>
-          <p class="lead mt-5">A description will go here</p>
-        </main>
-      </div>
-    </div>
-  </div>
+        
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/72498f28e9.js" crossorigin="anonymous"></script>
-</body>
+        <!-- The Modal -->
+        <div id="week1" class="modal">
 
+        <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>In week one we covered the basics of github, which I had not handled from the back end previously.  I find that I am struggling a little bit with interfacing with it from the command line even though I can stumble through, but I think that will come with practice and the handy reference sheet we've been linked to. Otherwise my greatest struggles have been adjusting to using a mac, and time management since I've been in overtime at work while beginning this course.  I already have a basic familiarity with HTML and some experience altering CSS and am very much looking forward to learning more about them.</p>
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div id="week2" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Once more my greatest enemy this week was time and time management, trying to find room to fit in all the reading and practice exercises we were given.  I had some issues comprehending some of the CSS documentation, and eventually realized the best thing to do was to go for my old tried and true method, winging it.  I tend to learn better in a mix of demonstration and guided hands on activities anyway, so swapping to this process helped me feel a little more confident.  By doing first I was able to go back and better understand what I was reading since I had handled some code.</p>
+
+                <p>Pseudocoding is something that I think I am going to struggle with from an implementation standpoint.  Conceptually I get it, but I’m more mentally geared towards narrative writing than technical writing so I’m going to struggle a little with writing it in terms of functions as objects vs. just saying what it does.</p>
+
+                <p>I’m starting to think the layout I was looking at for my blog may require javascript, so I’m looking forward to seeing what’s possible with it as we get into it.  My experience with it is much, much older than my prior experience with HTML and CSS so it’s going to be much closer to new territory for me.</p>
+            </div>
+        </div>
+         <!-- The Modal -->
+        <div id="week3" class="modal">
+
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Modals can eat me.</p>
+                </div>
+
+        </div> 
+        <!---<main>
+            <p>In week one we covered the basics of github, which I had not handled from the back end previously.  I find that I am struggling a little bit with interfacing with it from the command line even though I can stumble through, but I think that will come with practice and the handy reference sheet we've been linked to. Otherwise my greatest struggles have been adjusting to using a mac, and time management since I've been in overtime at work while beginning this course.  I already have a basic familiarity with HTML and some experience altering CSS and am very much looking forward to learning more about them.</p>
+        </main>--->
+        <script src="main.js"></script>
+    </body>
 </html>
