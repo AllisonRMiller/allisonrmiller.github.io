@@ -1,7 +1,7 @@
 fetch ("./blog.json").then((response) => {return response.json();}).then((blog) => initBlog(blog));
 
 
-function initBlog(){
+function initBlog(blog){
     var title = blog[0].title;
     var unpack = blog[0].map((x) => {return `<p>` +x.entry + `</p>`});
     document.getElementById("blog").innerText= unpack;

@@ -5,6 +5,7 @@
         "entry": "In week one we covered the basics of github, which I had not handled from the back end previously.  I find that I am struggling a little bit with interfacing with it from the command line even though I can stumble through, but I think that will come with practice and the handy reference sheet we've been linked to. Otherwise my greatest struggles have been adjusting to using a mac, and time management since I've been in overtime at work while beginning this course.  I already have a basic familiarity with HTML and some experience altering CSS and am very much looking forward to learning more about them."
         }
     ],
+<<<<<<< HEAD
     "Week2": [{
         "title": "Week 2",
         "entry": ["Once more my greatest enemy this week was time and time management, trying to find room to fit in all the reading and practice exercises we were given.  I had some issues comprehending some of the CSS documentation, and eventually realized the best thing to do was to go for my old tried and true method, winging it.  I tend to learn better in a mix of demonstration and guided hands on activities anyway, so swapping to this process helped me feel a little more confident.  By doing first I was able to go back and better understand what I was reading since I had handled some code.",
@@ -12,6 +13,15 @@
         "I’m starting to think the layout I was looking at for my blog may require javascript, so I’m looking forward to seeing what’s possible with it as we get into it. My experience with it is much, much older than my prior experience with HTML and CSS so it’s going to be much closer to new territory for me."
         ]
     }
+=======
+    "Week2": [
+        {
+        "title": "Week 2",
+        "entry": ["Once more my greatest enemy this week was time and time management, trying to find room to fit in all the reading and practice exercises we were given.  I had some issues comprehending some of the CSS documentation, and eventually realized the best thing to do was to go for my old tried and true method, winging it.,  I tend to learn better in a mix of demonstration and guided hands on activities anyway, so swapping to this process helped me feel a little more confident.  By doing first I was able to go back and better understand what I was reading since I had handled some code.",
+                "Pseudocoding is something that I think I am going to struggle with from an implementation standpoint.  Conceptually I get it, but I’m more mentally geared towards narrative writing than technical writing so I’m going to struggle a little with writing it in terms of functions as objects vs. just saying what it does.",
+                "I’m starting to think the layout I was looking at for my blog may require javascript, so I’m looking forward to seeing what’s possible with it as we get into it. My experience with it is much, much older than my prior experience with HTML and CSS so it’s going to be much closer to new territory for me."]
+        }
+>>>>>>> b0d2becf0accb9013f7e84a06fc62f42b080136c
     ],
     "Week 3": [
         {
