@@ -82,9 +82,9 @@ html,body {
 
 }
 
-/* .jumbotron{
-    height: 70vh;
-} */
+.jumbotron{
+    min-height: 40vh;
+}
 
 /*---Once and Future main content formatting---*/
 /* main {
