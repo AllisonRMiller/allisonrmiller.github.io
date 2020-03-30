@@ -1,16 +1,16 @@
 
-html {
+html,body {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    background-image: url("Summer_Trip_2016_pt_1_209.JPG");
+    background-image: url("./images/Summer_Trip_2016_pt_1_209.JPG");
+    font-family: 'EB Garamond', serif;
     background-color: black;
-  }
-
+}
 
 /*---nav bar---*/
 
-.topbar {
+/* .topbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -44,9 +44,9 @@ html {
     text-align: center;
     padding: 19px 16px 20px 16px;
     border-bottom: 1.5px solid #dcecf5;
-}
+} */
 /*---Header bar---*/
-.titlebar {
+/* .titlebar {
     position:sticky;
     top: 55;
     width: 80%;
@@ -54,19 +54,50 @@ html {
     margin: 50 auto;
     padding: 16px 50px;
     background-color: rgba(16, 32, 41,.75);
+} */
+
+
+.list-group-item, .jumbotron, .card {
+    text-decoration:none;
+    color: #bad8eb;
+    font-family: 'EB Garamond', serif;
+    background-color: rgba(16, 32, 41,.75);
 }
 
+/* .card{
+    color: #bad8eb;
+    font-family: 'EB Garamond', serif;
+    background-color: rgba(16, 32, 41,.75);
+} */
+.navbar, .header {
+    color: #bad8eb;
+    text-transform:uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgba(16, 32, 41);
+}
+
+.header {
+    margin: auto;
+    width: 25vw;
+
+}
+
+/* .jumbotron{
+    height: 70vh;
+} */
+
 /*---Once and Future main content formatting---*/
-main {
-    padding: 50px;
+/* main {
+    margin: 10vh;
+    padding: 10vh;
     display: block;
     position: relative;
     width: 80%;
     margin: 100 auto;
     background-color: rgba(16, 32, 41,.75);
     
-}
-
+} */
+/* 
 .nav2 {
     margin: 50 auto;
     padding: 30px;
@@ -87,7 +118,7 @@ main {
     padding: 20px 16px 20px 16px;
     text-align: center;
     color: #bad8eb;
-}
+} */ 
 /*  Working on a modal thingy!
 .nav2 button {
     text-transform: uppercase;
@@ -134,7 +165,7 @@ main {
 */
 /*---text formatting---*/
 
-p {
+/* p {
     color: #bad8eb;
     font-family: 'EB Garamond', serif;
     font-size: 20px;
@@ -164,4 +195,5 @@ li a {
     text-decoration: none;
     font-size: 20px;
     font-family: 'EB Garamond', serif;
-      }
+      } */
+
